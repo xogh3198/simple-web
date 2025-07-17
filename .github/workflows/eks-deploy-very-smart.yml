@@ -15,7 +15,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/simple-web
+      DOCKER_IMAGE: ${{ secrets.taeho0206 }}/simple-web
       DOCKER_TAG: ${{ github.run_number }}
 
     steps:
